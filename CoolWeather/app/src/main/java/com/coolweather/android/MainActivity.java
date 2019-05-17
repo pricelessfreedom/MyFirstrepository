@@ -26,5 +26,10 @@ public class MainActivity extends AppCompatActivity {
             Log.i(TAG, "销毁MainActivity。。。。。");
         }
     }
+	
+	@Override
+    protected void onDestroy() {
+        super.onDestroy();
+    }
 
 }
